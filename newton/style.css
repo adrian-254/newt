@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffcc00;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    text-align:center;
+    color: #ff5722;
+    font-size: 10;
+  }
+  
+  .photos, .friends {
+    display: flexbox;
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .photo-gallery {
+    display: flexbox;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .photo-gallery img {
+    display:flexbox;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .friends-comments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .friends-comments button {
+    background-color: #ff002b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .friends-comments button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0e0e0;
+    margin-top: 20px;
+  }
