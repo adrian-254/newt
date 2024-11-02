@@ -24,7 +24,6 @@ body {
   }
   
   .photos, .friends {
-    display: flexbox;
     max-width: 1000px;
     margin: 25px auto;
     padding: 25px;
@@ -34,13 +33,11 @@ body {
   }
   
   .photo-gallery {
-    display: flexbox;
     justify-content: space-around;
     flex-wrap: wrap;
   }
   
   .photo-gallery img {
-    display:flexbox;
     width: 200px;
     height: auto;
     border-radius: 10px;
